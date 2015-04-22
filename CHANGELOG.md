@@ -2,6 +2,11 @@
 
 ## Master
 
+##### Enhancements
+
++ Support for apple disk image (\*.dmg)
+  [Ryosuke Ito](https://github.com/manicmaniac)
+
 ##### Bug Fixes
 
 * Checkout git submodules recursively.  
@@ -16,7 +21,6 @@
 
 * Don't checkout git commits onto a new branch, just use the detached head.  
   [Samuel Giddins](https://github.com/segiddins)
-
 
 ## 0.9.0
 
