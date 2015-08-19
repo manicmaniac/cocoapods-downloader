@@ -1,4 +1,4 @@
-language: ruby
+language: objective-c
 
 addons:
  code_climate:
@@ -9,7 +9,11 @@ rvm:
   - 2.1.1
 
 install:
+  - brew install bzr
   - bundle install
   - git config --global user.name  'CI'
   - git config --global user.email 'CI@example.com'
+
+script:
+  - bundle exec rake
 
